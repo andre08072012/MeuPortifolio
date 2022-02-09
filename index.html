@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio A - Criando Sites</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1f085ddd53.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logocinza.png">
+        </div>
+        <nav>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#servicos">Portifólio</a></li>
+                    <li><a href="#mapa">Planos</a></li>
+                    <li><a href="https://blackesteticaautomotiva.blogspot.com/" target="_blank">Blog</a></li>
+                    <li><a href="termo.html">Sobre</a></li>
+                    <li><a href="politica.html">Contato</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </header>
+    <main>
+        <div class="texto">
+            <h1>Procuramos fazer sempre o melhor</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aspernatur tenetur ipsum repellendus beatae veniam molestias corporis minus nisi. Reprehenderit, deleniti saepe beatae possimus autem sed mollitia id blanditiis quasi!</p>
+            <button>ORÇAMENTO</button>
+        </div>
+        <div class="img">
+            <img src="img/img1.jpg" alt="">
+        </div>
+    </main>
+
+    <h2 class="titulo">Nossos serviços</h2>
+
+    <section>
+        <div class="txt-virtual">
+            <h2>Lojas Virtuais</h2>
+            <p>Nossa equipe é capactada para construir as melhores lojas virtuais do mercado,<br> é crescente o número de brasileiros com ideias empreendedoras carregando o desejo de ter sua própria loja on-line</p>
+        </div>
+        <div class="img-virtual1">
+            <img src="img/banervirtual.png" alt="">
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <div class="img-virtual">
+            <img src="img/banerlanding1.png" alt="">
+        </div>
+        <div class="txt-virtual">
+            <br>
+            <h2>Web Sites e Landing Pages</h2>
+            <br>
+            <p>Landing Page é uma página que possui todos os elementos voltados à conversão do visitante em Lead, oportunidade ou cliente. Também conhecidas como páginas de aterrissagem ou páginas de conversão, as Landing Pages são muito usadas em campanhas de Marketing Digital, pois costumam ter altas taxas de conversão.
+            </p>
+        </div>
+        
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-------JavaScript for Toogle Menu------->
+    <script>
+
+        var navLinks = document.getElementById("navLink");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
