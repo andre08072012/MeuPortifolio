@@ -121,7 +121,7 @@ main{
 .texto h1{
     color: white;
     text-align: center;
-    font-family: var(--font1);
+    font-family: var(--font4);
     font-size: 40px;
 }
 
@@ -205,7 +205,7 @@ main{
     }
     .img-virtual1 img{
         display: flex;
-        width: 50px;
+        width: 80%;
     }
 }
 
@@ -240,11 +240,13 @@ section{
 }
 
 .img-virtual1 img{
-    width: 500px;
+    max-width: 500px;
+    height: 350px;
 }
 
 .img-virtual img{
-    width: 500px;
+    max-width: 500px;
+    height: 350px;
 }
 
 
