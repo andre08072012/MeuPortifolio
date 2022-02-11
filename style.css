@@ -26,6 +26,10 @@ html{
     overflow-x: hidden;
 }
 
+hr{
+    color: white;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -133,7 +137,7 @@ main{
     color: white;
     text-align: center;
     font-family: var(--font4);
-    font-size: 40px;
+    font-size: 200%;
 }
 
 .texto p{
@@ -173,7 +177,7 @@ main{
         color: white;
         text-align: center;
         font-family: var(--font1);
-        font-size: 30px;
+        font-size: 200%;
     }
     .texto{
         padding: 5px;
@@ -188,6 +192,9 @@ main{
     }
     .texto{
         padding: 5px;
+    }
+    .texto h1{
+        font-size: 250%;
     }
 }
 
@@ -205,7 +212,7 @@ main{
         padding: 5px;
     }
     .texto h1{
-        font-size: 40px;
+        font-size: 250%;
     }
     .texto p{
         padding: 10px;
@@ -284,6 +291,8 @@ section{
     background-image: url(img/price.jpg);
     background-position: center;
     background-size: cover;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .card{
@@ -309,4 +318,9 @@ section{
     background: rgb(248, 105, 10);
     border: 1px solid rgb(248, 105, 10);
     color: black;
+}
+
+.mapa iframe{
+    margin: 40px auto;
+    width: 100%;
 }
