@@ -159,7 +159,6 @@ main{
     cursor: pointer;
     border-radius: 10px;
 }
-
 .texto button:hover{
     color: rgb(248, 105, 10);
     background: transparent;
@@ -375,4 +374,9 @@ section{
 }
 .icons a:hover{
     color: #343A40;
+}
+.priva{
+    display: flex;
+    flex-direction: column;
+    color: white;
 }
