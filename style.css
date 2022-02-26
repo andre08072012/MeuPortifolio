@@ -31,6 +31,8 @@ hr{
 }
 
 header{
+    width: 100%;
+    margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -332,6 +334,7 @@ section{
 }
 
 .rodape{
+    width: 100%;
     margin-top: 50px;
     background-color: rgb(248, 105, 10);
     padding: 20px;
@@ -341,11 +344,13 @@ section{
     color: white;
     font-size: 20px;
     font-weight: 300; 
+    margin-bottom: 0;
 }
 .rodape p{
     color: white;
     font-size: 20px;
     font-weight: 300;
+    margin-bottom: 0;
 }
 .rodape p a{
     text-decoration: none;
