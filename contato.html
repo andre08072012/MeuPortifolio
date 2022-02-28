@@ -12,6 +12,18 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/1f085ddd53.js" crossorigin="anonymous"></script>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Dosis:wght@200;300;400;500&family=Mochiy+Pop+P+One&family=Montserrat:wght@100;200;300;400&family=Neonderthaw&family=Piazzolla:wght@100&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+        :root {
+            --font1: 'Dongle', sans-serif;
+            --font2: 'Dosis', sans-serif;
+            --font3: 'Mochiy Pop P One', sans-serif;
+            --font4: 'Montserrat', sans-serif;
+            --font5: 'Neonderthaw', cursive;
+            --font6: 'Piazzolla', serif;
+            --font7: 'Roboto', sans-serif;
+        }
+
         * {
             padding: 0;
             margin: 0;
@@ -34,6 +46,7 @@
 
         h1,
         h2 {
+            font-family: var(--font2);
             font-size: 2rem;
             color: #fff;
             margin-top: 40px;
@@ -115,8 +128,9 @@
             background: rgb(240, 128, 54);
         }
 
-        .rodape{
+        .rodape {
             width: 100%;
+            font-size: 80%;
         }
     </style>
 </head>
@@ -141,8 +155,8 @@
         </nav>
     </header>
 
-    <h1>Formulario de Contato</h1>
-    <form action="https://formsubmit.co/blackstudioestetica@gmail.com" method="POST" class="form">
+    <h1>Formulário de Contato</h1>
+    <form action="https://formsubmit.co/studioawebsites@gmail.com" method="POST" class="form">
         <!--Ação para destino de envio do formulário-->
         <label for="name" id="name">Nome</label>
         <input type="text" name="name" required>
@@ -189,4 +203,5 @@
     </script>
 
 </body>
+
 </html>
