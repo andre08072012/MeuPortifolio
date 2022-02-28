@@ -12,6 +12,14 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/1f085ddd53.js" crossorigin="anonymous"></script>
     <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style: none;
+        }
+
         body {
             background: #343A40;
             min-height: 100vh;
@@ -20,8 +28,6 @@
             justify-content: center;
             flex-direction: column;
             font-family: monospace;
-            padding-left: 1rem;
-            padding-right: 1rem;
         }
 
         /*para calcular px em rem é só pegar 48px / 16 = 3 */
@@ -50,6 +56,7 @@
             width: 100%;
             max-width: 32rem;
             font-size: 1.125rem;
+            padding: 1.5rem;
         }
 
         .form label,
@@ -107,6 +114,10 @@
             outline: none;
             background: rgb(240, 128, 54);
         }
+
+        .rodape{
+            width: 100%;
+        }
     </style>
 </head>
 
@@ -138,9 +149,8 @@
         <label for="email" id="email">E-mail</label>
         <input type="email" name="email" required>
         <label for="message" id="message">Mensagem</label>
-        <textarea name="message" id="mensagem"
-            placeholder="Digite aqui suas duvidas!" cols="30"
-            rows="10" required></textarea>
+        <textarea name="message" id="mensagem" placeholder="Digite aqui suas duvidas!" cols="30" rows="10"
+            required></textarea>
         <input type="hidden" name="_captcha" value="false">
         <!--Desativar o Captcha-->
         <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
@@ -165,3 +175,18 @@
             <a href="termos.html" target="_blank">Termos de Uso</a>
         </div>
     </footer>
+
+    <script>
+
+        var navLinks = document.getElementById("navLink");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>

@@ -290,7 +290,8 @@ section{
     display: flex;
     justify-content: center;
     gap: 30px;
-    width: 100%;
+    width: 80%;
+    border-radius: 10px;
     margin: auto;
     background-image: url(img/price.jpg);
     background-position: center;
